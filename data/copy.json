@@ -1,0 +1,194 @@
+{
+  "_comment": [
+    "Hand-authored editorial content for the survey page, in the order the page reads.",
+    "data.js is generated output; this file plus data/annotations.json are its inputs.",
+    "'topper' is the page headline and standfirst, 'copy' the interface strings that",
+    "window.COPY exposes, and 'movements' the title, pull-quote and lede for each movement.",
+    "Movements are keyed by their position on the page, 1 first. The generator assigns each",
+    "movement's numeral, its section number and its vote counts, and fails if a position it",
+    "needs is missing here."
+  ],
+  "topper": {
+    "headline": {
+      "es": [
+        "VEINTE PELÍCULAS",
+        "ELEGIDAS POR",
+        "SESENTA Y SEIS PERSONAS"
+      ],
+      "en": [
+        "TWENTY FILMS",
+        "PICKED BY",
+        "SIXTY-SIX OF YOU"
+      ]
+    },
+    "standfirst": {
+      "es": "Sesenta y seis personas emitieron 593 votos: sesenta y cinco eligieron nueve películas cada una y una eligió ocho. Veinte películas fueron elegidas por al menos cuatro personas. Acá están, de la vigésima a la primera.",
+      "en": "Sixty-six people cast 593 picks between them: sixty-five chose nine films each, and one chose eight. Twenty films were chosen by at least four people. Here they are, twentieth to first."
+    }
+  },
+  "movements": {
+    "1": {
+      "title": {
+        "es": "LA ORILLA",
+        "en": "THE EDGE"
+      },
+      "quote": {
+        "es": "Nueve películas con la misma cantidad de votos.",
+        "en": "Nine films with the same number of votes."
+      },
+      "lede": {
+        "es": "Ordenadas alfabéticamente, porque nadie las ordenó de otra forma.",
+        "en": "Alphabetical, because nobody ordered them any other way."
+      }
+    },
+    "2": {
+      "title": {
+        "es": "EL ARRANQUE",
+        "en": "THE START"
+      },
+      "quote": {
+        "es": "Tres películas con cinco votos.",
+        "en": "Three films with five votes."
+      },
+      "lede": {
+        "es": "El borde de arriba del filo.",
+        "en": "The upper lip of the cliff."
+      }
+    },
+    "3": {
+      "title": {
+        "es": "LA MAYORÍA",
+        "en": "THE MAJORITY"
+      },
+      "quote": {
+        "es": "Cinco películas con seis votos.",
+        "en": "Five films with six votes."
+      },
+      "lede": {
+        "es": "Un voto por encima de la banda de al lado.",
+        "en": "One vote above the band beside it."
+      }
+    },
+    "4": {
+      "title": {
+        "es": "LAS QUE GANARON",
+        "en": "THE ONES WHO WON"
+      },
+      "quote": {
+        "es": "Tres películas, y sólo una llegó a nueve votos.",
+        "en": "Three films, and only one reached nine votes."
+      },
+      "lede": {
+        "es": "La primera de todas está al pie de esta página.",
+        "en": "The first of them all sits at the foot of this page."
+      }
+    }
+  },
+  "copy": {
+    "wordmark": "The Comu Times",
+    "skipToContent": {
+      "es": "Ir al contenido",
+      "en": "Skip to content"
+    },
+    "languageLabel": {
+      "es": "Idioma",
+      "en": "Language"
+    },
+    "jumpLabel": {
+      "es": "Ir a la posición",
+      "en": "Jump to rank"
+    },
+    "listHeading": {
+      "es": "La lista completa",
+      "en": "The complete list"
+    },
+    "listIntro": {
+      "es": "Veinte películas, ordenadas de la vigésima a la primera. El puesto se cuenta desde la ganadora y las películas con la misma cantidad de votos van en orden alfabético, no como preferencia medida.",
+      "en": "Twenty films, ordered from twentieth to first. Rank is counted from the winner, and films sharing a vote count sit in alphabetical order — not a measured preference."
+    },
+    "movementWord": {
+      "es": "Movimiento",
+      "en": "Movement"
+    },
+    "movementEmpty": {
+      "es": "Ninguna película cae en este movimiento.",
+      "en": "No films fall into this movement."
+    },
+    "counterSeen": {
+      "es": "vistas",
+      "en": "seen"
+    },
+    "counterWant": {
+      "es": "queridas",
+      "en": "wanted"
+    },
+    "ofTotal": {
+      "es": "de",
+      "en": "of"
+    },
+    "seen": {
+      "es": "La vi",
+      "en": "Seen"
+    },
+    "want": {
+      "es": "La quiero ver",
+      "en": "Want to watch"
+    },
+    "seenShort": {
+      "es": "Vista",
+      "en": "Seen"
+    },
+    "wantShort": {
+      "es": "Quiero ver",
+      "en": "Want"
+    },
+    "watchlistPanelTitle": {
+      "es": "Tu watchlist",
+      "en": "Your watchlist"
+    },
+    "watchlistSaved": {
+      "es": "Tu watchlist está guardada",
+      "en": "Your watchlist has been saved"
+    },
+    "watchlistEmpty": {
+      "es": "Todavía no marcaste nada. Usá los controles de cada película para armar tu lista.",
+      "en": "You have not marked anything yet. Use the controls on each film to build your list."
+    },
+    "watchlistState": {
+      "es": "Estado",
+      "en": "State"
+    },
+    "placeholderNote": {
+      "es": "Todavía sin imagen",
+      "en": "No image yet"
+    },
+    "mediaFallbackNote": {
+      "es": "No pudimos cargar el archivo, mostramos el marcador de posición.",
+      "en": "We could not load the file, so we are showing the placeholder."
+    },
+    "footerNote": {
+      "es": "Una lista que no necesita justificarse.",
+      "en": "A list that does not need justifying."
+    },
+    "votesLabel": {
+      "es": "votos",
+      "en": "votes"
+    },
+    "votersToggle": {
+      "es": "Quién la eligió",
+      "en": "Who picked it"
+    },
+    "surveyTotals": {
+      "es": "66 personas · 593 votos",
+      "en": "66 people · 593 picks"
+    },
+    "movementVotesEach": {
+      "es": "votos cada una",
+      "en": "votes each"
+    },
+    "movementVotesList": {
+      "es": "votos",
+      "en": "votes"
+    }
+  }
+}

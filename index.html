@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Twenty Films Picked by Sixty-Six of You | The Comu Times</title>
+<meta name="description" content="Sixty-six people cast 593 picks. Here are the twenty films chosen by at least four of them, ranked from twentieth to first.">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#fbfaf7">
+
+<!-- Self-hosted fonts only. Nothing here reaches a third-party domain. -->
+<link rel="preload" href="assets/fonts/playfair-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/sourceserif4-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/librefranklin-latin.woff2" as="font" type="font/woff2" crossorigin>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="license" href="assets/fonts/OFL-sourceserif4.txt">
+</head>
+<body>
+
+<a class="skip-link" href="#la-lista" data-i18n="skipToContent">Skip to content</a>
+
+<!-- ============================================================ masthead -->
+<header class="masthead" role="banner">
+  <p class="masthead__wordmark">The Comu&nbsp;Times</p>
+
+  <div class="lang" role="group" aria-label="Language" data-i18n-attr="aria-label:languageLabel">
+    <button type="button" class="lang__btn" data-set-lang="es" aria-pressed="false">
+      <span class="lang__code">ES</span>
+      <span class="lang__name">Español</span>
+    </button>
+    <button type="button" class="lang__btn" data-set-lang="en" aria-pressed="true">
+      <span class="lang__code">EN</span>
+      <span class="lang__name">English</span>
+    </button>
+  </div>
+</header>
+
+<!-- ============================================================== topper -->
+<section class="topper" aria-labelledby="topper-headline">
+  <h1 class="topper__headline" id="topper-headline">
+    <span class="topper__line" data-i18n="TOPPER.headline.0">TWENTY FILMS</span>
+    <span class="topper__line" data-i18n="TOPPER.headline.1">PICKED BY</span>
+    <span class="topper__line" data-i18n="TOPPER.headline.2">SIXTY-SIX OF YOU</span>
+  </h1>
+  <p class="topper__standfirst" data-i18n="TOPPER.standfirst">Sixty-six people cast 593 picks between them: sixty-five chose nine films each, and one chose eight. Twenty films were chosen by at least four people. Here they are, twentieth to first.</p>
+</section>
+
+<!-- Full-bleed colour band: one segment per movie, rendered by app.js. -->
+<div class="band" id="band" aria-hidden="true"></div>
+
+<!-- ========================================================= sticky nav -->
+<nav class="jumpbar" id="jumpbar" aria-label="Jump to rank" data-i18n-attr="aria-label:jumpLabel">
+  <div class="jumpbar__inner">
+    <ol class="jumpbar__ranks" id="jumpbar-ranks"></ol>
+    <p class="jumpbar__counters" id="jumpbar-counters" role="status" aria-live="polite"></p>
+  </div>
+</nav>
+
+<!-- =============================================================== list -->
+<main id="la-lista" class="main">
+  <div class="list-intro">
+    <h2 class="list-intro__heading" data-i18n="listHeading">The complete list</h2>
+    <p class="list-intro__text" data-i18n="listIntro">Twenty films, ordered from twentieth to first. Rank is counted from the winner, and films sharing a vote count sit in alphabetical order — not a measured preference.</p>
+  </div>
+
+  <noscript>
+    <div class="noscript">
+      <p><strong>JavaScript is required.</strong> The ten films are generated from a
+        data file and rendered in the browser, so the list itself cannot be shown
+        without it. Everything else on this page — the masthead, the headline and the
+        footer — is already readable.</p>
+    </div>
+  </noscript>
+
+  <!-- Movement sections are rendered here by app.js. -->
+  <div id="movements"></div>
+</main>
+
+<!-- ============================================================= footer -->
+<footer class="footer" role="contentinfo">
+  <p class="footer__note" data-i18n="footerNote">A list that does not need justifying.</p>
+  <p class="footer__colophon">
+    The Comu Times — set in Playfair Display, Source Serif 4 and Libre Franklin.
+    All three are licensed under the SIL Open Font License; see
+    <code>assets/fonts/</code>.
+  </p>
+</footer>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
