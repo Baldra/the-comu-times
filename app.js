@@ -344,7 +344,12 @@
     var text = el('div', 'card__text');
 
     var heading = el('h3', 'card__title');
-    heading.appendChild(el('span', 'sr-only', '#' + movie.rank + ' — '));
+    /* The rank is visible, not screen-reader-only: a reader needs to see which
+     * film won without opening anything, and a numeral that disappears the
+     * moment real artwork loads is no use. It is the first child of the heading
+     * so the heading's accessible name is "7, Film Title" — the rank is carried
+     * and announced exactly once, with no hidden duplicate to keep in sync. */
+    heading.appendChild(el('span', 'card__rank', movie.rank));
     var titleMain = el('span', 'card__title-main');
     bind(titleMain, function () {
       titleMain.setAttribute('lang', state.locale);
@@ -681,8 +686,25 @@
     });
   }
 
+  /* 3.4 — the tab title and the search snippet are the only places the
+   * publication is still named in real text once the masthead is artwork, so
+   * both follow the active language like every other string. An empty value
+   * leaves the markup's own authored copy alone rather than blanking it. */
+  function applyDocumentMetadata() {
+    var title = field(TOPPER.docTitle, state.locale);
+    if (title) document.title = title;
+
+    var summary = field(TOPPER.docDescription, state.locale);
+    if (summary) {
+      var meta = document.querySelector('meta[name="description"]');
+      if (meta) meta.setAttribute('content', summary);
+    }
+  }
+
   function applyTranslations() {
     document.documentElement.lang = state.locale; /* 10.2 */
+
+    applyDocumentMetadata();
 
     state.i18nNodes.forEach(function (entry) {
       var value = lookup(entry.path);

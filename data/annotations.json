@@ -34,7 +34,7 @@
     "director": "Bong Joon-ho",
     "title": {
       "en": "Memories of Murder",
-      "es": "Crónica de un asesino en serie"
+      "es": "Memorias de un asesino"
     },
     "blurb": {
       "en": "Detectives with incompatible methods chase a killer who does the same thing twice to every victim. Bong turns a police procedural into something much sadder: a provincial town doing arithmetic on its own disappearances and getting the answer wrong, one year at a time.",
@@ -43,15 +43,15 @@
     "media": "assets/img/memories-of-murder.jpg"
   },
   "Esperando la carroza": {
-    "year": 1972,
-    "director": "Luis Buñuel",
+    "year": 1985,
+    "director": "Alejandro Doria",
     "title": {
-      "en": "The Discreet Charm of the Bourgeoisie",
+      "en": "Waiting for the Hearse",
       "es": "Esperando la carroza"
     },
     "blurb": {
-      "en": "Six friends who cannot stop having dinner together try, over and over, to get through a meal without the world intruding. Buñuel builds the whole film out of meals that fall apart, and the ruins are funnier than the meal. It is also the only film here that will not explain itself.",
-      "es": "Seis amigos que no dejan de cenar juntos intentan, una y otra vez, atravesar una comida sin que el mundo se meta. Buñuel arma la película entera con comidas que se desarman, y los escombros son más graciosos que la comida. También es la única de esta lista que no se explica."
+      "en": "Set during a chaotic family gathering, the film turns an elderly mother’s disappearance into a sharp, absurd portrait of family dysfunction, social hypocrisy, and middle-class anxieties. Its fast-paced humor and unforgettable characters have made it a cult classic of Argentine cinema.",
+      "es": "En medio de una caótica reunión familiar, la desaparición de una anciana se convierte en una sátira ácida sobre la disfunción familiar, la hipocresía social y las tensiones de la clase media. Con humor absurdo y personajes inolvidables, se convirtió en un clásico de culto del cine argentino."
     },
     "media": "assets/img/esperando-la-carroza.avif"
   },
@@ -156,7 +156,8 @@
     "year": 1999,
     "director": "Gil Junger",
     "title": {
-      "en": "10 Things I Hate About You"
+      "en": "10 Things I Hate About You",
+      "es": "10 cosas que odio de ti"
     },
     "blurb": {
       "en": "A Taming of the Shrew plot with better clothes, which is a compliment. Julia Stiles plays the hero's father and gets it exactly right, and the sequence where she turns the boy's own tactics on him is worth the rest of the film.",
@@ -180,7 +181,8 @@
     "year": 2004,
     "director": "Michel Gondry",
     "title": {
-      "en": "Eternal Sunshine of the Spotless Mind"
+      "en": "Eternal Sunshine of the Spotless Mind",
+      "es": "Eterno resplandor de una mente sin recuerdos"
     },
     "blurb": {
       "en": "A film about erasing someone and then discovering the forgetting does not take. Gondry shoots a lot of it like a memory, wobbling, and the trick that the relationship is not doomed just inconvenient gets you further than the twist does.",
@@ -243,7 +245,7 @@
     "director": "Frank Darabont",
     "title": {
       "en": "The Shawshank Redemption",
-      "es": "Cadena perpetua"
+      "es": "Sueños de libertad"
     },
     "blurb": {
       "en": "The film people describe when they are not going to describe anything else. It also has the best ending of anything here, because the camera holds on Tim Robbins being let go and cuts before he reaches the car, so the hope stays his.",

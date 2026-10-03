@@ -11,25 +11,33 @@
   "topper": {
     "headline": {
       "es": [
-        "VEINTE PELÍCULAS",
-        "ELEGIDAS POR",
-        "SESENTA Y SEIS PERSONAS"
+        "LAS 20 MEJORES",
+        "PELÍCULAS",
+        "SEGÚN LA COMU"
       ],
       "en": [
-        "TWENTY FILMS",
-        "PICKED BY",
-        "SIXTY-SIX OF YOU"
+        "THE 20 BEST FILMS",
+        "ACCORDING TO",
+        "LA COMU"
       ]
     },
     "standfirst": {
-      "es": "Sesenta y seis personas emitieron 593 votos: sesenta y cinco eligieron nueve películas cada una y una eligió ocho. Veinte películas fueron elegidas por al menos cuatro personas. Acá están, de la vigésima a la primera.",
-      "en": "Sixty-six people cast 593 picks between them: sixty-five chose nine films each, and one chose eight. Twenty films were chosen by at least four people. Here they are, twentieth to first."
+      "es": "Más de sesenta miembros de la Comu votaron por sus nueve películas favoritas. Veinte películas fueron elegidas por al menos cuatro personas. Acá están, de la vigésima a la primera.",
+      "en": "More than sixty members of La Comu voted for their nine favorite films. Twenty films were chosen by at least four people. Here they are, twentieth to first."
+    },
+    "docTitle": {
+      "es": "Las 20 mejores películas según La Comu — The Comu Times",
+      "en": "The 20 best films according to La Comu — The Comu Times"
+    },
+    "docDescription": {
+      "es": "Las veinte mejores películas votadas por más de sesenta miembros de la Comu, ordenadas de la vigésima a la primera.",
+      "en": "The twenty best films chosen by more than sixty members of La Comu, ordered from twentieth to first."
     }
   },
   "movements": {
     "1": {
       "title": {
-        "es": "LA ORILLA",
+        "es": "El MARGEN",
         "en": "THE EDGE"
       },
       "quote": {
@@ -37,8 +45,8 @@
         "en": "Nine films with the same number of votes."
       },
       "lede": {
-        "es": "Ordenadas alfabéticamente, porque nadie las ordenó de otra forma.",
-        "en": "Alphabetical, because nobody ordered them any other way."
+        "es": "Ordenados alfabéticamente, para desempatar.",
+        "en": "Listed alphabetically, to break ties."
       }
     },
     "2": {
@@ -51,7 +59,7 @@
         "en": "Three films with five votes."
       },
       "lede": {
-        "es": "El borde de arriba del filo.",
+        "es": "El borde de arriba de la cima.",
         "en": "The upper lip of the cliff."
       }
     },
@@ -79,8 +87,8 @@
         "en": "Three films, and only one reached nine votes."
       },
       "lede": {
-        "es": "La primera de todas está al pie de esta página.",
-        "en": "The first of them all sits at the foot of this page."
+        "es": "Las favoritas de la comunidad.",
+        "en": "The favorites of 'La Comu'."
       }
     }
   },

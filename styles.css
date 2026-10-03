@@ -525,6 +525,25 @@ code {
   text-transform: uppercase;
 }
 
+/* The rank, shown rather than hidden. It takes the same heavy display-face
+   numeral treatment as the placeholder watermark so the two read as one system,
+   but it sits in the text column rather than on the media, so it is coloured
+   with the ink and sized to be read rather than to fill a 16:9 frame. Being in
+   the flow it can never overlap the title, the vote count or the toggles, and
+   it survives real media replacing the placeholder. */
+.card__rank {
+  display: block;
+  margin-bottom: 0.14em;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(2rem, 1.5rem + 2vw, 3.25rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  font-variant-numeric: oldstyle-nums;
+  text-align: center;
+}
+
 .card__title {
   font-family: var(--font-display);
   font-weight: 700;
@@ -532,6 +551,7 @@ code {
   line-height: 1.08;
   letter-spacing: -0.012em;
   text-wrap: balance;
+  /* width: fit-content; */
 }
 
 .card__title a {

@@ -23,12 +23,20 @@
 
   window.TOPPER = {
     "headline": {
-      "es": ["VEINTE PELÍCULAS", "ELEGIDAS POR", "SESENTA Y SEIS PERSONAS"],
-      "en": ["TWENTY FILMS", "PICKED BY", "SIXTY-SIX OF YOU"]
+      "es": ["LAS 20 MEJORES", "PELÍCULAS", "SEGÚN LA COMU"],
+      "en": ["THE 20 BEST FILMS", "ACCORDING TO", "LA COMU"]
     },
     "standfirst": {
-      "es": "Sesenta y seis personas emitieron 593 votos: sesenta y cinco eligieron nueve películas cada una y una eligió ocho. Veinte películas fueron elegidas por al menos cuatro personas. Acá están, de la vigésima a la primera.",
-      "en": "Sixty-six people cast 593 picks between them: sixty-five chose nine films each, and one chose eight. Twenty films were chosen by at least four people. Here they are, twentieth to first."
+      "es": "Más de sesenta miembros de la Comu votaron por sus nueve películas favoritas. Veinte películas fueron elegidas por al menos cuatro personas. Acá están, de la vigésima a la primera.",
+      "en": "More than sixty members of La Comu voted for their nine favorite films. Twenty films were chosen by at least four people. Here they are, twentieth to first."
+    },
+    "docTitle": {
+      "es": "Las 20 mejores películas según La Comu — The Comu Times",
+      "en": "The 20 best films according to La Comu — The Comu Times"
+    },
+    "docDescription": {
+      "es": "Las veinte mejores películas votadas por más de sesenta miembros de la Comu, ordenadas de la vigésima a la primera.",
+      "en": "The twenty best films chosen by more than sixty members of La Comu, ordered from twentieth to first."
     }
   };
 
@@ -155,7 +163,7 @@
       "num": "I",
       "counts": [4],
       "title": {
-        "es": "LA ORILLA",
+        "es": "El MARGEN",
         "en": "THE EDGE"
       },
       "quote": {
@@ -163,8 +171,8 @@
         "en": "Nine films with the same number of votes."
       },
       "lede": {
-        "es": "Ordenadas alfabéticamente, porque nadie las ordenó de otra forma.",
-        "en": "Alphabetical, because nobody ordered them any other way."
+        "es": "Ordenados alfabéticamente, para desempatar.",
+        "en": "Listed alphabetically, to break ties."
       }
     },
     {
@@ -180,7 +188,7 @@
         "en": "Three films with five votes."
       },
       "lede": {
-        "es": "El borde de arriba del filo.",
+        "es": "El borde de arriba de la cima.",
         "en": "The upper lip of the cliff."
       }
     },
@@ -214,8 +222,8 @@
         "en": "Three films, and only one reached nine votes."
       },
       "lede": {
-        "es": "La primera de todas está al pie de esta página.",
-        "en": "The first of them all sits at the foot of this page."
+        "es": "Las favoritas de la comunidad.",
+        "en": "The favorites of 'La Comu'."
       }
     }
   ];
@@ -255,7 +263,7 @@
       "year": 2003,
       "director": "Bong Joon-ho",
       "title": {
-        "es": "Crónica de un asesino en serie",
+        "es": "Memorias de un asesino",
         "en": "Memories of Murder"
       },
       "blurb": {
@@ -269,15 +277,15 @@
       "section": 4,
       "votes": 7,
       "voters": ["Guille03", "aimu98", "MonoJob", "Cami Romero", "Berchumess", "AliceEncadenada", "Dirk"],
-      "year": 1972,
-      "director": "Luis Buñuel",
+      "year": 1985,
+      "director": "Alejandro Doria",
       "title": {
         "es": "Esperando la carroza",
-        "en": "The Discreet Charm of the Bourgeoisie"
+        "en": "Waiting for the Hearse"
       },
       "blurb": {
-        "es": "Seis amigos que no dejan de cenar juntos intentan, una y otra vez, atravesar una comida sin que el mundo se meta. Buñuel arma la película entera con comidas que se desarman, y los escombros son más graciosos que la comida. También es la única de esta lista que no se explica.",
-        "en": "Six friends who cannot stop having dinner together try, over and over, to get through a meal without the world intruding. Buñuel builds the whole film out of meals that fall apart, and the ruins are funnier than the meal. It is also the only film here that will not explain itself."
+        "es": "En medio de una caótica reunión familiar, la desaparición de una anciana se convierte en una sátira ácida sobre la disfunción familiar, la hipocresía social y las tensiones de la clase media. Con humor absurdo y personajes inolvidables, se convirtió en un clásico de culto del cine argentino.",
+        "en": "Set during a chaotic family gathering, the film turns an elderly mother’s disappearance into a sharp, absurd portrait of family dysfunction, social hypocrisy, and middle-class anxieties. Its fast-paced humor and unforgettable characters have made it a cult classic of Argentine cinema."
       },
       "media": "assets/img/esperando-la-carroza.avif"
     },
@@ -425,7 +433,7 @@
       "year": 1999,
       "director": "Gil Junger",
       "title": {
-        "es": "10 Things I Hate About You",
+        "es": "10 cosas que odio de ti",
         "en": "10 Things I Hate About You"
       },
       "blurb": {
@@ -459,7 +467,7 @@
       "year": 2004,
       "director": "Michel Gondry",
       "title": {
-        "es": "Eternal Sunshine of the Spotless Mind",
+        "es": "Eterno resplandor de una mente sin recuerdos",
         "en": "Eternal Sunshine of the Spotless Mind"
       },
       "blurb": {
@@ -544,7 +552,7 @@
       "year": 1994,
       "director": "Frank Darabont",
       "title": {
-        "es": "Cadena perpetua",
+        "es": "Sueños de libertad",
         "en": "The Shawshank Redemption"
       },
       "blurb": {
