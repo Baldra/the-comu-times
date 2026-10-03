@@ -240,6 +240,8 @@ def build_movies(kept, annotations, omit_voters):
         movie["blurb"] = collections.OrderedDict(
             [("es", annotation["blurb"]["es"]), ("en", annotation["blurb"]["en"])]
         )
+        if annotation.get("media"):
+            movie["media"] = annotation["media"]
         movies.append(movie)
     return movies
 
@@ -309,12 +311,13 @@ def render(movies, sections, copy, topper, omit_voters):
     lines.append("  /* ---------------------------------------------------------------- movies */")
     lines.append("")
     if omit_voters:
-        lines.append("  /* Entries carry no `media`, `links` or `voters`: no voter names ship in")
-        lines.append("   * this build, and the placeholder path is what the page demonstrates. */")
+        lines.append("  /* This build omits `voters`. Entries carry the ranking fields plus any")
+        lines.append("   * authored `media` or `links`; cards without media fall back to the")
+        lines.append("   * generated placeholder. */")
     else:
-        lines.append("  /* Entries ship with no `media` and no `links`, so the placeholder path is")
-        lines.append("   * what the page demonstrates on first load. Both keys are honoured when")
-        lines.append("   * authored:")
+        lines.append("  /* Entries carry the ranking fields, voter names, and any authored `media`")
+        lines.append("   * or `links`; cards without media fall back to the generated placeholder.")
+        lines.append("   * Shapes honoured by the page:")
         lines.append("   *   media: 'assets/img/x.jpg'                     -> chosen by extension")
         lines.append("   *   media: { src: 'assets/video/x.mp4', poster: 'assets/img/x.jpg' }")
         lines.append("   *   links: [{ label: { es, en }, url: 'https://...' }] */")

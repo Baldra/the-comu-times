@@ -222,9 +222,9 @@
 
   /* ---------------------------------------------------------------- movies */
 
-  /* Entries ship with no `media` and no `links`, so the placeholder path is
-   * what the page demonstrates on first load. Both keys are honoured when
-   * authored:
+  /* Entries carry the ranking fields, voter names, and any authored `media`
+   * or `links`; cards without media fall back to the generated placeholder.
+   * Shapes honoured by the page:
    *   media: 'assets/img/x.jpg'                     -> chosen by extension
    *   media: { src: 'assets/video/x.mp4', poster: 'assets/img/x.jpg' }
    *   links: [{ label: { es, en }, url: 'https://...' }] */
@@ -244,7 +244,8 @@
       "blurb": {
         "es": "La que convirtió un cuento de hadas en una comedia de oficina. Los padres de Fiona, una cárcel, una burra con rencor: la premisa no tiene sentido y la duración se sostiene entera sobre los chistes. Es el primer lugar de esta lista y la única película en la que todos aquí pudieron ponerse de acuerdo.",
         "en": "The one that made a fairy tale into a workplace comedy. Fiona's parents, a prison, a donkey with a grudge — the premise is nonsense and the running time is entirely on the jokes. It is the top of this list and the only film everybody here could agree on."
-      }
+      },
+      "media": "assets/img/shrek-2.jpg"
     },
     {
       "rank": 2,
@@ -260,7 +261,8 @@
       "blurb": {
         "es": "Dos detectives con métodos incompatibles persiguen a un asesino que le hace lo mismo a cada víctima. Bong convierte un policial en algo mucho más triste: un pueblo de provincia haciendo cuentas sobre sus propias desapariciones y acertando la respuesta equivocada, año por año.",
         "en": "Detectives with incompatible methods chase a killer who does the same thing twice to every victim. Bong turns a police procedural into something much sadder: a provincial town doing arithmetic on its own disappearances and getting the answer wrong, one year at a time."
-      }
+      },
+      "media": "assets/img/memories-of-murder.jpg"
     },
     {
       "rank": 3,
@@ -276,7 +278,8 @@
       "blurb": {
         "es": "Seis amigos que no dejan de cenar juntos intentan, una y otra vez, atravesar una comida sin que el mundo se meta. Buñuel arma la película entera con comidas que se desarman, y los escombros son más graciosos que la comida. También es la única de esta lista que no se explica.",
         "en": "Six friends who cannot stop having dinner together try, over and over, to get through a meal without the world intruding. Buñuel builds the whole film out of meals that fall apart, and the ruins are funnier than the meal. It is also the only film here that will not explain itself."
-      }
+      },
+      "media": "assets/img/esperando-la-carroza.avif"
     },
     {
       "rank": 4,
@@ -292,7 +295,8 @@
       "blurb": {
         "es": "Un director conocido vuelve a la cabina de proyección del pueblo donde creció y recuerda al hombre que la llevaba. Tornatore arma el final con la única cosa que el viejo proyeccionista no podía hacer, que era soltar la película que estaba por destruir, y funciona siempre.",
         "en": "A famous director goes back to the village projection booth he grew up in and remembers the man who ran it. Tornatore builds the ending out of the one thing the old projectionist could not do, which is let go of the film he was about to destroy, and it lands every time."
-      }
+      },
+      "media": "assets/img/cinema-paradiso.jpeg"
     },
     {
       "rank": 5,
@@ -308,7 +312,8 @@
       "blurb": {
         "es": "La otra puerta tiene un botón para los ojos y una versión de tu familia que de verdad te presta atención. Es animación en plasticina, así que cada cuadro del Otro Mundo es un objeto físico que alguien construyó. Lo que asusta no es el Otro Mundo: son sus padres.",
         "en": "The other door has a button for your eyes and a version of your family that actually pays attention. Stop-motion, so every frame of the Other World is a physical object somebody built. The scary part is not the Other World; it is her parents."
-      }
+      },
+      "media": "assets/img/coraline.jpg"
     },
     {
       "rank": 6,
@@ -324,7 +329,8 @@
       "blurb": {
         "es": "El final son cinco minutos de discusión sobre si el último plano es feliz, y es la única película de esta encuesta donde el desacuerdo es justamente el punto. Todo lo anterior es un musical que confía en que le sigas, y el atasco es la mejor secuencia de la película.",
         "en": "The ending is a five-minute argument about whether the last shot is a happy one, and it is the only film in this survey where the disagreement is the point. Everything before it is a musical that trusts you to keep up, and the traffic jam is the best sequence in it."
-      }
+      },
+      "media": "assets/img/la-la-land.jpg"
     },
     {
       "rank": 7,
@@ -340,7 +346,8 @@
       "blurb": {
         "es": "Quince años en una habitación de la que no puede salir, y un motivo para averiguar por qué, que es la entrada a una historia que en realidad habla de la rabia y de quién puede apuntarla. Park filma la pelea del pasillo de un solo plano porque el personaje no puede dejar de ser seguido, no porque una toma sea una proeza.",
         "en": "Fifteen years in a room he cannot leave, and a reason to find out why, which is the setup for a story that is really about rage and who gets to aim it. Park builds the hallway fight as one unbroken shot because the character cannot stop being followed, not because one take is a flex."
-      }
+      },
+      "media": "assets/img/oldboy.gif"
     },
     {
       "rank": 8,
@@ -356,7 +363,8 @@
       "blurb": {
         "es": "Una de las dos únicas secuelas de esta lista, y el argumento de que la mejor de la saga es la que el héroe deja de querer el trabajo. La secuencia del tren elevado es lo más divertido del cine de superhéroes, y la escena en la que suelta la máscara no va de responsabilidad: va de cansancio.",
         "en": "One of only two sequels here, and the argument that the best one in the series is the one where the hero stops wanting the job. The elevated train sequence is the most enjoyable thing in comic-book cinema, and the scene where he gives up the mask is not about responsibility — it is about being tired."
-      }
+      },
+      "media": "assets/img/spider-man-2.jpg"
     },
     {
       "rank": 9,
@@ -372,7 +380,8 @@
       "blurb": {
         "es": "La película animada de 1998, no la nueva de 2020. Los objetos pequeños del hogar se portan como caballos, que parece un chiste de usar y desde entonces resulta toda una teoría de la personalidad aplicada a un ejército de plasticina. La escena de la casera es más graciosa que cualquier cosa que el estudio haya hecho después.",
         "en": "The 1998 animated film, not the 2020 remake. Small household objects behave like horses, which sounds like a throwaway joke and turns out to be a whole theory of personality applied to a claymation army. The matchmaker scene is funnier than anything the studio has done since."
-      }
+      },
+      "media": "assets/img/mulan.gif"
     },
     {
       "rank": 10,
@@ -388,7 +397,8 @@
       "blurb": {
         "es": "Tres películas, una tarde larga, y una saga que decidió cerrar con veintiséis protagonistas a la vez en lugar de uno. La película que defiende las tres horas es la única que nadie discute acá: es simplemente la tercera.",
         "en": "Three films, one long afternoon, and a series that decided to end on an army and a delegation of hobbits rather than one hero. The film that makes the case for a three-hour runtime is the one nobody here is arguing about — it is just the third one."
-      }
+      },
+      "media": "assets/img/the-lord-of-the-rings-the-return-of-the-king.webp"
     },
     {
       "rank": 11,
@@ -404,7 +414,8 @@
       "blurb": {
         "es": "Gente tirándose contra un muro de gorros rojos a la medianoche, por razones que la película explica una vez y nunca más. Solo funciona si dices los diálogos con el público, así que es menos una película que se mira que una a la que se va. Las canciones son mejores que el argumento, que es el orden correcto.",
         "en": "People throwing themselves at a wall of red hats at midnight, for reasons the film explains once and never again. It only works if you say the lines with the audience, so it is less a film you watch than one you show up for. The songs are better than the plot, which is the correct order."
-      }
+      },
+      "media": "assets/img/the-rocky-horror-picture-show.gif"
     },
     {
       "rank": 12,
@@ -420,7 +431,8 @@
       "blurb": {
         "es": "La película de La fierecilla domada con mejor ropa, lo cual es un elogio. Julia Stiles hace del padre de la protagonista y lo saca adelante, y la secuencia donde le devuelve al chico sus propias tácticas vale por toda la película.",
         "en": "A Taming of the Shrew plot with better clothes, which is a compliment. Julia Stiles plays the hero's father and gets it exactly right, and the sequence where she turns the boy's own tactics on him is worth the rest of the film."
-      }
+      },
+      "media": "assets/img/10-things-i-hate-about-you.webp"
     },
     {
       "rank": 13,
@@ -436,7 +448,8 @@
       "blurb": {
         "es": "Armada en 1988 con miles de imágenes fijas pintadas a mano y fotografiadas plano a plano. La persecución en las motos no tiene competencia, y el final es de esos raros que deciden frenar en vez de escalar.",
         "en": "Made in 1988 out of thousands of hand-painted stills, photographed one frame at a time. The chase on the bikes has never been matched, and the ending is the rare one that decides to stop rather than escalate."
-      }
+      },
+      "media": "assets/img/akira.gif"
     },
     {
       "rank": 14,
@@ -452,7 +465,8 @@
       "blurb": {
         "es": "Una película sobre borrar a alguien y descubrir que el olvido no agarra. Gondry filma mucho como si fuera un recuerdo, tembloroso, y la idea de que la relación no está condenada sino solo es incómoda te lleva más lejos que el giro final.",
         "en": "A film about erasing someone and then discovering the forgetting does not take. Gondry shoots a lot of it like a memory, wobbling, and the trick that the relationship is not doomed just inconvenient gets you further than the twist does."
-      }
+      },
+      "media": "assets/img/eternal-sunshine-of-the-spotless-mind.jpg"
     },
     {
       "rank": 15,
@@ -468,7 +482,8 @@
       "blurb": {
         "es": "Dos horas y media que se mantienen pacientes hasta los últimos veinte minutos, y ahí la paciencia era el miedo desde el principio. Toni Collette sostiene la primera mitad entera con el temor, y la muñeca en la caja no es un monstruo: es un mecanismo.",
         "en": "Two and a half hours that keep being patient until the last twenty minutes, at which point the patience was the horror all along. Toni Collette carries the first half entirely on dread, and the doll in the box is not a monster. It is a mechanism."
-      }
+      },
+      "media": "assets/img/hereditary.jpg"
     },
     {
       "rank": 16,
@@ -484,7 +499,8 @@
       "blurb": {
         "es": "El diseño sonoro es la razón de ser de la película: los diálogos están mezclados tan bajo que te inclinas para oírlos, y ese esfuerzo es el argumento sobre la distancia que la trama está haciendo. La secuencia de acoplamiento son cuatro minutos de un solo plano y se lo gana, cosa que el final no consigue.",
         "en": "The sound design is the reason for the film's existence: the dialogue is mixed so low you strain for it, and that strain is the argument about distance the plot is making. The docking scene is four minutes of one continuous shot and earns it, which is more than the ending does."
-      }
+      },
+      "media": "assets/img/interstellar.gif"
     },
     {
       "rank": 17,
@@ -500,7 +516,8 @@
       "blurb": {
         "es": "La que todo el mundo pondría en esta lista y nadie ordena, porque es una condición y no una preferencia. El Padrino en sí son casi dos horas y media de alguien explicando lo que ya se acordó, y es la película más controlada que se filmó jamás sobre perder el control.",
         "en": "The one everybody would put on this list and nobody ranks, because it is a condition rather than a preference. The godfather itself is barely two and a half hours of somebody explaining what has been agreed, and it is the most controlled film ever made about losing control."
-      }
+      },
+      "media": "assets/img/the-godfather.gif"
     },
     {
       "rank": 18,
@@ -516,7 +533,8 @@
       "blurb": {
         "es": "Un asesinato, una pregunta sin respuesta durante veinticinco años y una jubilación que no fue una jubilación. Campanella hace que el policial cargue con el trabajo emocional y reserva la respuesta para la última escena, donde la cámara la mira antes de que nadie la diga.",
         "en": "A murder, a twenty-five-year unanswered question, and a retirement that was not a retirement. Campanella makes the procedural do the emotional work and holds back the answer until the last scene, where the camera looks at it before anybody says it out loud."
-      }
+      },
+      "media": "assets/img/the-secret-in-their-eyes.webp"
     },
     {
       "rank": 19,
@@ -532,7 +550,8 @@
       "blurb": {
         "es": "La película que la gente describe cuando no va a describir nada más. También tiene el mejor final de todo lo que hay acá, porque la cámara se queda en Tim Robbins cuando lo sueltan y corta antes de que llegue al auto, así que la esperanza sigue siendo suya.",
         "en": "The film people describe when they are not going to describe anything else. It also has the best ending of anything here, because the camera holds on Tim Robbins being let go and cuts before he reaches the car, so the hope stays his."
-      }
+      },
+      "media": "assets/img/the-shawshank-redemption.jpg"
     },
     {
       "rank": 20,
@@ -548,7 +567,8 @@
       "blurb": {
         "es": "Todos los que están filmados por otro, resueltos con una luz en el cielo. Weir mantiene el pánico de Truman tan chico que la película nunca se siente como un thriller sobre una jaula: se siente como una comedia sobre un hombre que descubre que tiene un trabajo. Jim Carrey juega los últimos diez minutos como un hombre sosteniendo una puerta cerrada.",
         "en": "Everybody who is filmed by somebody else, solved with a light in the sky. Weir keeps Truman's panic so small that the film never feels like a thriller about a cage — it feels like a comedy about a man finding out he has a job. Jim Carrey plays the last ten minutes as a man holding a door shut."
-      }
+      },
+      "media": "assets/img/the-truman-show.gif"
     }
   ];
 
